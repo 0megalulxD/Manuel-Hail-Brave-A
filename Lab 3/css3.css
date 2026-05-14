@@ -1,0 +1,41 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    background-image: url("bg2.jpg");
+    background-color: pink;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+form {
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.2);
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    box-sizing: border-box;
+}
+label {
+    font-weight: bold;
+    margin-top: 15px;
+}
+input[type="submit"] {
+    margin-top: 20px;
+    width: 70px;
+    padding: 5px;
+    border-radius: 20px;
+    border: 2px solid black;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+input[type="submit"]:hover {
+    box-shadow: 1px 1px 12px 1px black;
+    transform: translateY(-1px);
+}
